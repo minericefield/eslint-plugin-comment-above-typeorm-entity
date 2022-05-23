@@ -1,0 +1,8 @@
+{
+  "name": "eslint-plugin-comment-above-typeorm-entity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:minericefield/eslint-plugin-comment-above-typeorm-entity.git",
+  "author": "minericefield <minericefield@gmail.com>",
+  "license": "MIT"
+}
