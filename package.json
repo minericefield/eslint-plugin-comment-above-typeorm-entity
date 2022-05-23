@@ -13,6 +13,11 @@
   "repository": "git@github.com:minericefield/eslint-plugin-comment-above-typeorm-entity.git",
   "author": "minericefield <minericefield@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.build.json",
+    "lint": "eslint src --fix",
+    "test": "jest"
+  },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
     "@types/jest": "^27.5.1",
