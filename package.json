@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-comment-above-typeorm-entity",
+  "version": "1.0.0",
+  "description": "An eslint plugin that forces you to comment just above the typeorm entity to describe it",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "typeorm"
+  ],
+  "repository": "git@github.com:minericefield/eslint-plugin-comment-above-typeorm-entity.git",
+  "author": "minericefield <minericefield@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.build.json",
+    "lint": "eslint src --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/experimental-utils": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fs-extra": "^10.1.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.2",
+    "typeorm": "^0.3.6",
+    "typescript": "^4.6.4"
+  }
+}
